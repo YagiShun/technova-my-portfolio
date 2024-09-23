@@ -2,7 +2,7 @@
 
 /* 固定幅と中央揃えの設定 */
 .container {
-    width: 1200px; /* 固定幅 */
+    width: 1280px; /* 固定幅 */
     margin: 0 auto;
   }
   
@@ -27,18 +27,42 @@
     text-decoration: none;
     color: black;
   }
+  .top h1 {
+    text-align: center;
+    font-size: 80px;
+  }
+
+  .top div {
+    text-align: center;
+  }
+  .profile-text, .profile-img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .profile-text{
+    font-size: 40px;
+  }
   
+  .profile-img{
+    text-align: right;
+  }
+
   /* セクションの基本スタイル */
   .section {
-    padding: 100px 0;
+    padding: 40px 0px;
     margin-top: 60px; /* ヘッダーの高さ分余白を確保 */
   }
-  
-  .about {
-    background-color: #f5f5f5;
+
+  .section h2{
+    font-size: 70px;
   }
   
-  .skill, .works {
+  .about, .works {
+    background-color: #fff;
+  }
+  
+  .top, .skill {
     background-color: #dcdcdc;
   }
   
@@ -51,7 +75,7 @@
   }
   
   .skill-item {
-    background-color: #fff;
+    background-color: #ccc;
     padding: 20px;
     border-radius: 5px;
   }
@@ -64,7 +88,7 @@
   }
   
   .work-item {
-    background-color: #fff;
+    background-color: #ccc;
     padding: 20px;
     border-radius: 5px;
     text-align: center;
