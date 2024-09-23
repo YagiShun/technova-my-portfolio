@@ -21,6 +21,9 @@ const Top: React.FC = () => {
     return (
         <section id="top" className="section top">
             <h1>Yagi Shunsuke Portfolio Site</h1>
+            <div>
+                <img src="./icon/icon.jpg" height="500px" width="500px" alt="アイコン" className="icon-image" /> 
+            </div>
 
         </section>
     );
@@ -30,13 +33,13 @@ const About: React.FC = () => {
       <section id="about" className="section about">
         <h2>About ~自己紹介~</h2>
         <div className="profile">
-          <img src="./profile.png" alt="プロフィール" className="profile-image" />
-          <div className="profile-text">
-            <p>名前: 八木駿輔</p>
-            <p>大学: 芝浦工業大学</p>
-            <p>学部: デザイン工学部</p>
-            <p>年齢: 21歳（26卒）</p>
-          </div>
+            <img src="./icon/PP.png" alt="プロフィール" className="profile-image" />
+            <div className="profile-text">
+                <p>名前: 八木駿輔</p>
+                <p>大学: 芝浦工業大学</p>
+                <p>学部: デザイン工学部</p>
+                <p>年齢: 21歳（26卒）</p>
+            </div>
         </div>
       </section>
     );
@@ -82,6 +85,7 @@ export default function Home() {
         <div className="container">
           <Header />
           <main>
+            <Top />
             <About />
             <Skill />
             <Works />
