@@ -1,27 +1,79 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* 固定幅と中央揃えの設定 */
+.container {
+    width: 1200px; /* 固定幅 */
+    margin: 0 auto;
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  
+  /* ヘッダーの固定 */
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ccc;
+    padding: 10px;
+    z-index: 1000;
   }
-}
+  
+  .header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+  .header li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* セクションの基本スタイル */
+  .section {
+    padding: 100px 0;
+    margin-top: 60px; /* ヘッダーの高さ分余白を確保 */
+  }
+  
+  .about {
+    background-color: #f5f5f5;
+  }
+  
+  .skill, .works {
+    background-color: #dcdcdc;
+  }
+  
+  /* スキルのアイコン表示 */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .skill-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* 作品の画像表示 */
+  .works-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .work-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* フッター */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ccc;
+  }
+  
