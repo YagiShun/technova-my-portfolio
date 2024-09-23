@@ -11,8 +11,8 @@ const Header: React.FC = () => {
             <li><a href="#about">About</a></li>
             <li><a href="#skill">Skill</a></li>
             <li><a href="#works">Works</a></li>
-            <li><a href="https://twitter.com/yagi_siba">X</a></li>
-            <li><a href="https://github.com/YagiShun">Github</a></li>
+            <li><a href="https://twitter.com/yagi_siba"><img src="https://github.com/YagiShun/technova-my-portfolio/blob/main/src/app/icon/X.png?raw=true" height="25px" width="25px" alt="Xリンク"/></a></li>
+            <li><a href="https://github.com/YagiShun"><img src="https://github.com/YagiShun/technova-my-portfolio/blob/main/src/app/icon/git.png?raw=true" height="25px" width="25px" alt="gitリンク"/></a></li>
           </ul>
         </nav>
       </header>
