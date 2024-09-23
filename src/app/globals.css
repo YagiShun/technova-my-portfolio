@@ -27,6 +27,7 @@
     text-decoration: none;
     color: black;
   }
+
   .top h1 {
     text-align: center;
     font-size: 80px;
@@ -50,7 +51,7 @@
 
   /* セクションの基本スタイル */
   .section {
-    padding: 40px 0px;
+    padding: 30px 0px;
     margin-top: 60px; /* ヘッダーの高さ分余白を確保 */
   }
 
