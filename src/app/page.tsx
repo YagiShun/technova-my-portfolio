@@ -11,6 +11,8 @@ const Header: React.FC = () => {
             <li><a href="#about">About</a></li>
             <li><a href="#skill">Skill</a></li>
             <li><a href="#works">Works</a></li>
+            <li><a href="https://twitter.com/yagi_siba">X</a></li>
+            <li><a href="https://github.com/YagiShun">Github</a></li>
           </ul>
         </nav>
       </header>
@@ -21,9 +23,7 @@ const Top: React.FC = () => {
     return (
         <section id="top" className="section top">
             <h1>Yagi Shunsuke Portfolio Site</h1>
-            <div>
-                <img src="./icon/icon.jpg" height="500px" width="500px" alt="アイコン" className="icon-image" /> 
-            </div>
+            <div><img src="./icon/icon.jpg" height="500px" width="500px" alt="アイコン" className="icon-image" /></div>
 
         </section>
     );
@@ -33,13 +33,14 @@ const About: React.FC = () => {
       <section id="about" className="section about">
         <h2>About ~自己紹介~</h2>
         <div className="profile">
-            <img src="./icon/PP.png" alt="プロフィール" className="profile-image" />
             <div className="profile-text">
                 <p>名前: 八木駿輔</p>
                 <p>大学: 芝浦工業大学</p>
                 <p>学部: デザイン工学部</p>
+                <p>学科: デザイン工学科ロボティクス・情報デザイン系</p>
                 <p>年齢: 21歳（26卒）</p>
             </div>
+            <div className="profile-img"><img src="https://github.com/YagiShun/technova-my-portfolio/blob/main/src/app/icon/profile.png?raw=true" height="490px" width="300px" alt="プロフィール" /></div>
         </div>
       </section>
     );
@@ -49,15 +50,23 @@ const Skill: React.FC = () => {
       <section id="skill" className="section skill">
         <h2>Skill ~できること~</h2>
         <div className="skills-grid">
-          {/* アイコンを表示する部分 */}
-          <div className="skill-item">C言語</div>
-          <div className="skill-item">C#</div>
-          <div className="skill-item">CSS</div>
-          <div className="skill-item">HTML</div>
-          <div className="skill-item">Java</div>
-          <div className="skill-item">Linux</div>
-          <div className="skill-item">MySQL</div>
-          <div className="skill-item">Python</div>
+          
+            <div><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/C.svg" height="200px" width="200px" alt="C" /></div>
+            <div><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/CS.svg" height="200px" width="200px" alt="C#" /></div>
+            <div><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/CSS.svg" height="200px" width="200px" alt="CSS" /></div>
+            <div><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/HTML.svg" height="200px" width="200px" alt="HTML" /></div>
+            <div className="skill-item">C言語</div>
+            <div className="skill-item">C#</div>
+            <div className="skill-item">CSS</div>
+            <div className="skill-item">HTML</div>
+            <div><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Java-Dark.svg" height="200px" width="200px" alt="Java" /></div>
+            <div><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Linux-Dark.svg" height="200px" width="200px" alt="Linux" /></div>
+            <div><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/MySQL-Dark.svg" height="200px" width="200px" alt="MySQL" /></div>
+            <div><img src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Python-Dark.svg" height="200px" width="200px" alt="Python" /></div>
+            <div className="skill-item">Java</div>
+            <div className="skill-item">Linux</div>
+            <div className="skill-item">MySQL</div>
+            <div className="skill-item">Python</div>
         </div>
       </section>
     );
