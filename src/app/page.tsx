@@ -11,8 +11,8 @@ const Header: React.FC = () => {
             <li><a href="#about">About</a></li>
             <li><a href="#skill">Skill</a></li>
             <li><a href="#works">Works</a></li>
-            <li><a href="https://twitter.com/yagi_siba"><img src="https://github.com/YagiShun/technova-my-portfolio/blob/main/src/app/icon/X.png?raw=true" height="25px" width="25px" alt="Xリンク"/></a></li>
-            <li><a href="https://github.com/YagiShun"><img src="https://github.com/YagiShun/technova-my-portfolio/blob/main/src/app/icon/git.png?raw=true" height="25px" width="25px" alt="gitリンク"/></a></li>
+            <li><a href="https://twitter.com/yagi_siba"><img src="https://github.com/YagiShun/technova-my-portfolio/blob/main/public/icon/X.png?raw=true" height="25px" width="25px" alt="Xリンク"/></a></li>
+            <li><a href="https://github.com/YagiShun"><img src="https://github.com/YagiShun/technova-my-portfolio/blob/main/public/icon/git.png?raw=true" height="25px" width="25px" alt="gitリンク"/></a></li>
           </ul>
         </nav>
       </header>
@@ -40,7 +40,7 @@ const About: React.FC = () => {
                 <p>学科: デザイン工学科ロボティクス・情報デザイン系</p>
                 <p>年齢: 21歳（26卒）</p>
             </div>
-            <div className="profile-img"><img src="https://github.com/YagiShun/technova-my-portfolio/blob/main/src/app/icon/profile.png?raw=true" height="490px" width="300px" alt="プロフィール" /></div>
+            <div className="profile-img"><img src="https://github.com/YagiShun/technova-my-portfolio/blob/main/public/icon/profile.png?raw=true" height="490px" width="300px" alt="プロフィール" /></div>
         </div>
       </section>
     );
