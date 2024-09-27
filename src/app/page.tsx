@@ -23,7 +23,7 @@ const Top: React.FC = () => {
     return (
         <section id="top" className="section top">
             <h1>Yagi Shunsuke Portfolio Site</h1>
-            <div><Image src="./icon/icon.jpg" height={500} width={500} alt="アイコン" className="icon-image" /></div>
+            <div><Image src="/icon/icon.jpg" height={500} width={500} alt="アイコン" className="icon-image" /></div>
 
         </section>
     );
